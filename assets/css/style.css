@@ -82,9 +82,9 @@ header {
     cursor: pointer;
     
 }
-button:hover{
-    color: #01a725;
-    background-color: #dddddd;
+button:hover{   
+    color: #79e91e;
+    background-color: rgb(5, 75, 34);
 }
 ul:hover{
     color: #01a725;
@@ -231,3 +231,22 @@ ul{
 	margin:auto;
 }
 
+.carrocel{
+    justify-content: center;
+    width: 100%;
+    display:  flex;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+
+}
+.btn{
+   background-color: #4b960e; 
+   border:none;
+
+}
+.btn:hover{
+    color: #79e91e;
+    background-color: rgb(5, 75, 34);
+}

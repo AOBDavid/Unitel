@@ -1,0 +1,10 @@
+.container{
+   display: flex;
+   background-color: bisque;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 20px;
+}
+.card{
+    background-color: blue;
+}
