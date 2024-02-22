@@ -6,20 +6,21 @@ body{
 header{
     align-items: center;
     display: flex;
-    margin-top: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 10px;
+            background-color: #bccbd6;
             padding-left: 40%;
             color: rgb(23, 80, 80);
             border: none;
             height: 45px;
             outline: none;
             border-radius: 8px;
+
+  
 }
  header ul{
     display: flex ;
     gap :30px;
     list-style: none;
-    
     
  }
  a{
@@ -29,11 +30,11 @@ header{
  }
 .menu{
     margin-top: 10px;
-    background-color: #364f61;
-    padding-left: 10px;
-    color: azure;
-    border: none;
-    height: 45px;
-    outline: none;
-    border-radius: 8px;
+            background-color: #364f61;
+            padding-left: 10px;
+            color: azure;
+            border: none;
+            height: 45px;
+            outline: none;
+            border-radius: 8px;
 }

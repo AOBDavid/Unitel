@@ -53,11 +53,13 @@ body{
             text-transform: uppercase;
             font-weight: bold;
             cursor: pointer;
+            width:45 ;
             }
             P{
             color: #142e43;
             }
             a{
+                
             color: #142e43;
             text-decoration: none;
             margin-left: 10px;
