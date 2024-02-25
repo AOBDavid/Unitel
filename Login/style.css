@@ -1,8 +1,10 @@
+*{
+    font-family: Poppins,sans-serif;
+}
 body{
-    background: linear-gradient(to right, #e2f1f7, #143046);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     overflow:hidden;
-    background-image:"";
     }
     .area-login{
     display: flex;
@@ -14,10 +16,9 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        width: 355px;
-        height: 320px;
+        box-shadow: 0 8px 32px 0 rgba(4, 121, 23, 0.527);
+        width: 455px;
+        height: 420px;
         padding: 35px;
         border-radius: 10px;
         }
@@ -28,32 +29,55 @@ body{
         }
         .login input{
             margin-top: 10px;
-            background-color: #364f61;
+            background-color: #eeeeee;
             padding-left: 10px;
-            color: azure;
+            color: rgb(0, 0, 0);
             border: none;
             height: 45px;
             outline: none;
             border-radius: 8px;
             
         }
+        button{
+            margin-top: 10px;
+            background-color: #01a725;
+            padding-left: 10px;
+            border: none;
+            height: 45px;
+            outline: none;
+            border-radius: 8px;
+            
+        }
+        button a{
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+        }
         .login img{
             width: 100px;
             height: auto;
 
+        }
+        h3{
+            font-size: 30px;
+            color:rgb(0, 0, 0);
         }
         .login::placeholder{
             color: azure;
             font-size: 14px;
         }
         form [type="submit"]{
-            display: block;
-            background-color: #142e45;
+            border: none;
+             padding: 10px 15px;
+             border-radius: 5px;
+            background-color: #01a725;
+            cursor: pointer;
+            border-radius: 10px;
             font-size: 20px;
             text-transform: uppercase;
             font-weight: bold;
             cursor: pointer;
             width:45 ;
+            color: white;
             }
             P{
             color: #142e43;
