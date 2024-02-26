@@ -16,9 +16,8 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        box-shadow: 0 8px 32px 0 rgba(4, 121, 23, 0.527);
         width: 855px;
-        height: 420px;
+        height: 440px;
         padding: 35px;
         border-radius: 10px;
         }
@@ -36,8 +35,8 @@ body{
             height: 45px;
             outline: none;
             border-radius: 8px;
-            width: 400px;
-            
+            width: 350px;
+                       
         }
         .login img{
             width: 100px;
@@ -54,7 +53,10 @@ body{
         }
         .inputs{
             display: flex;
-            
+            flex-wrap: wrap-reverse;
+           align-items: center;
+            float: left;            
+            margin:1%; 
         }
         form [type="submit"]{
         
@@ -88,9 +90,10 @@ body{
                 height: 45px;
                 outline: none;
                 border-radius: 8px;
-                
+                margin-top: 20px;        
             }
             button a{
+        
                 color: rgb(255, 255, 255);
                 font-size: 25px;
             }
