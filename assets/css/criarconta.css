@@ -4,22 +4,23 @@
 body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    overflow:hidden;
+  
     }
     .area-login{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    
     }
     .login{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 855px;
-        height: 440px;
-        padding: 35px;
+        height: 540px;
         border-radius: 10px;
+     
         }
         .login form{
         display: flex;
@@ -27,7 +28,7 @@ body{
         flex-direction: column;
         }
         .login input{
-            margin-top: 10px;
+          
             background-color: #eeeeee;
             padding-left: 10px;
             color: rgb(0, 0, 0);
@@ -53,10 +54,13 @@ body{
         }
         .inputs{
             display: flex;
-            flex-wrap: wrap-reverse;
-           align-items: center;
-            float: left;            
-            margin:1%; 
+            
+            align-items: center;
+            justify-content: space-around;
+        }
+        input{
+            margin-top: 10px;
+            
         }
         form [type="submit"]{
         
@@ -77,23 +81,27 @@ body{
             color: #142e43;
             }
             a{
-                
+            
             color: #142e43;
             text-decoration: none;
             margin-left: 10px;
             }
             button{
-                margin-top: 10px;
+                width: 300px;
                 background-color: #01a725;
                 padding-left: 10px;
                 border: none;
                 height: 45px;
                 outline: none;
                 border-radius: 8px;
-                margin-top: 20px;        
+                margin: auto;
             }
             button a{
         
                 color: rgb(255, 255, 255);
                 font-size: 25px;
+            }
+            .inputs{
+              flex-direction: column;
+                margin: 40px;
             }
