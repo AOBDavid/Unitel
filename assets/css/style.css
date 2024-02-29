@@ -8,7 +8,7 @@
     font-family: Poppins,sans-serif;
 
 header {
-    background-color: #0f1d0f;
+    background-color: #193519;
     box-shadow: 0px 3px 10px #464646;
   
 }
@@ -33,9 +33,7 @@ header {
 
 .nav-list {
     display: flex;
-    align-items: center;
- 
-    
+    align-items: center;   
 }
 
 .nav-list ul {
@@ -47,7 +45,9 @@ header {
 
 .nav-item {
     margin: 0 15px;
+    color: white;
 }
+
 
 .nav-link {
  
@@ -142,7 +142,7 @@ ul{
 }
 .footer{
     
-	background-color: #0f1d0f;
+	background-color: #193519;
     padding: 70px 0;
     justify-content: center;
 }
@@ -226,6 +226,8 @@ ul{
     display: flex;   
 }
 .row{
+    justify-content: center;
+    margin-top: 20px;
 	display: flex;
 	flex-wrap: wrap;
     cursor: pointer;
@@ -237,7 +239,7 @@ ul{
 }
 .carrocel img{
     width: 1000px;
-    height: 400px;
+    height: 500px;
 }
 .carrocel{
     justify-content: center;
@@ -249,8 +251,9 @@ ul{
     font-family: segoe print;
 }
 .card img{
-    width: 100%;
+    width: 80%;
     height:200px;
+    margin: auto;
 }
 .col-md-4{
     width: 380px;
@@ -258,6 +261,12 @@ ul{
 }
 .card-title {
     font-size: 40px;
+}
+.card{
+    width: 100%;
+}
+.container div {
+    margin-top: 10px;
 }
 
 .card-text {
@@ -293,4 +302,8 @@ box-shadow: 10px;
 .h1 text-center p{
     color: #01a725;
 }
+}
+.animated:hover{
+    
+
 }
