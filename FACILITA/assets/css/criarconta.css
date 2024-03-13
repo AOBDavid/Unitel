@@ -1,0 +1,107 @@
+*{
+    font-family: Poppins,sans-serif;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    }
+    .area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 855px;
+        height: 540px;
+        border-radius: 10px;
+     
+        }
+        .login form{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        }
+        .login input{
+          
+            background-color: #eeeeee;
+            padding-left: 10px;
+            color: rgb(0, 0, 0);
+            border: none;
+            height: 45px;
+            outline: none;
+            border-radius: 8px;
+            width: 350px;
+                       
+        }
+        .login img{
+            width: 100px;
+            height: auto;
+
+        }
+        h3{
+            font-size: 30px;
+            color:rgb(0, 0, 0);
+        }
+        .login::placeholder{
+            color: azure;
+            font-size: 14px;
+        }
+        .inputs{
+            display: flex;
+            
+            align-items: center;
+            justify-content: space-around;
+        }
+        input{
+            margin-top: 10px;
+            
+        }
+        form [type="submit"]{
+        
+            border: none;
+             padding: 10px 15px;
+             border-radius: 5px;
+            background-color: #01a725;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            width:45 ;
+            color: white;
+            }
+            P{
+            color: #142e43;
+            }
+            a{
+            
+            color: #142e43;
+            text-decoration: none;
+            margin-left: 10px;
+            }
+            button{
+                width: 300px;
+                background-color: #01a725;
+                padding-left: 10px;
+                border: none;
+                height: 45px;
+                outline: none;
+                border-radius: 8px;
+                margin: auto;
+            }
+            button a{
+        
+                color: rgb(255, 255, 255);
+                font-size: 25px;
+            }
+            .inputs{
+              flex-direction: column;
+                margin: 40px;
+            }
